@@ -2504,7 +2504,7 @@ label {
 
 .category-info{
   text-align: center;
-  padding: 15px 15px;
+  padding: 15px 0px;
   border: 1px double var(--border-info-color);
   border-radius: 50px;
   transition: var(--transition2);

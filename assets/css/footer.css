@@ -32,7 +32,12 @@
 .footer-links a:hover {
     color: #f0a500;
 }
-
+.footer-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 /* Responsive for Mobile View */
 @media (max-width: 768px) {
     .footer-content {
