@@ -640,7 +640,10 @@ label {
   margin-bottom: 5px;
   display: inline-block;
 }
-
+#logoimage11{
+  height: 70px;
+  width: 70px;
+}
 .site-title {
   font-weight: 700;
   text-transform: capitalize;
@@ -934,8 +937,12 @@ label {
 @media all and (max-width: 767px) {
   .header-top{
     text-align: center;
+    display: none;
   }
-
+#logoimage11{
+  height: 40px;
+  width: 40px;
+}
   .header-top-right{
     float: unset;
   }
